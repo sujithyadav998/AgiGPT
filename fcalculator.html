@@ -1,0 +1,110 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="fcalculator.css" />
+	</head>
+	<body>
+        
+        <main>
+            <div  id = "input">
+                <h1 style="color : white;  font-family: Garamond ;"> Fertlizer Calculator </h1> 
+                <div>
+
+                    <div class = "formelements">
+                    <label class="inputsubheader">Choose Crop type</label>
+                  
+                    <select  style="width : 167px;height : 30px">
+                        <option value="Rice">Rice</option>
+                        <option value="Wheat">Wheat</option>
+                        <option value="Cotton">Cotton</option>
+                        <option value="Sugarcane">Sugarcane</option>
+                        <option value="Tea">Tea</option>
+                        <option value="Coffee">Coffee</option>
+                        <option value="Bananas">Bananas</option>
+                        <option value="Mangoes">Mangoes</option>
+                        <option value="Potatoes">Potatoes</option>
+                        <option value="Onions">Onions</option>
+                        <option value="Tomatoes">Tomatoes</option>
+                        <option value="Pulses">Pulses</option>
+                        <option value="Oilseeds">Oilseeds</option>
+                        <option value="Coconut">Coconut</option>
+                        <option value="Cashew">Cashew</option>
+                        <option value="Rubber">Rubber</option>
+                        <option value="Soybean">Soybean</option>
+                        <option value="Chickpea">Chickpea</option>
+                        <option value="Maize">Maize</option>
+                        <option value="Groundnut">Groundnut</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    </div>
+                   
+                    <div class = "formelements">
+                        <label class="inputsubheader"> Enter N value </label>
+                        
+                        <input type="number" id = "nratio" required>
+                        </div>
+                        <div class = "formelements">
+                            <label class="inputsubheader"> Enter P value </label>
+                            
+                            <input type="number" id = "pratio" >
+                            </div>
+                            <div class = "formelements">
+                                <label class="inputsubheader"> Enter K value </label>
+                                
+                                <input type="number" id = "kratio" >
+                                </div>
+                        
+                    <div class = "formelements">
+                    <label class="inputsubheader"> Nitrogen Value</label>
+                    
+                    <input placeholder="desired value in kg/acre"  type="number" id = "rn" >
+                    </div>
+                    
+                    <div class = "formelements">
+                    <label class="inputsubheader"> Phosphorous Value</label>
+                    
+                    <input placeholder="desired value in kg/acre" type="number" id = "rp" >
+                    </div>
+                 
+                    <div class = "formelements">
+                        <label  class="inputsubheader"> Pottasium Value</label>
+                        
+                        <input  placeholder="desired value in kg/acre" type="number" id = "rk" >
+                     </div>  
+                 
+                <div class = "formelements">
+                    <label  class="inputsubheader"> Enter area of land </label>
+                   
+                    <input placeholder="Enter in acres"  type="number" id = "area" >
+                </div>
+                <div id = "calcdiv">
+                    <button onclick="calculate()" id = "calc"> Calculate </button>
+                </div>
+                
+                </div>
+                        
+            </div>
+
+            <div id ="output" > 
+                 <h2 class = "outputheading"> Calculated Amount </h2>
+
+                 <h3 class = "outputheading"> Amount of Nitrogen </h3>
+                 <h3  id = "valuen" class = "value" > 000 kg</h3>
+
+                 <h3 class = "outputheading"> Amount of Phosphorous </h3>
+                 <h3  id = "valuep" class = "value" > 000 kg</h3>
+
+                 <h3 class = "outputheading"> Amount of  Pottasium </h3>
+                 <h3  id = "valuek" class = "value" > 000 kg</h3>
+        
+                
+
+            </div>
+            
+        </main>
+        <script src="fcalculator.js"></script>
+	</body>
+</html>

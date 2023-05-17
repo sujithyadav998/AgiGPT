@@ -1,0 +1,183 @@
+body {
+	
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	line-height: 1.6;
+	font-size: 18px;
+    background-color: #f6f9fc;
+}
+
+#logo
+
+{
+    height:10vh ; 
+    width:10vw ; 
+ margin-left : 20px ; 
+ margin-top:20px ; 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color:#2e475d ; 
+
+}
+
+header {
+    background : #ffffff;
+}
+#container
+{
+    background-color: aqua;
+    height:90vh ; 
+    background-color: #fef4ea;
+    display: flex;
+    flex-direction:row ;
+    width: 100vw;
+
+}
+#intro
+{
+    width: 45vw ; 
+    margin-left: 15vw;
+    margin-top: 20vh;
+}
+#title
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.25rem ; 
+    font-weight: 500 ; 
+    line-height: 1.28;
+    color:#2e475d ; 
+
+}
+#subtitle{
+    color: #2e475d;
+    font-family: Garamond ; 
+    font-size: 16px;
+    margin: 16px 0px;
+
+    
+
+}
+#trybtn{
+    background-color: #FF5C35;
+    width: 20vw;
+    height: 10vh ;
+    color: #FFFFFF; 
+    font-family: Garamond ; 
+
+}
+
+
+.listelements
+{
+    list-style: none;
+}
+
+header{
+    display:flex ; 
+    flex-direction:row;
+    justify-content: space-between;
+    width:100vw ; 
+    height:12vh ; 
+}
+#b
+{
+    margin-left: auto ;
+    margin-right:10px;
+    display : flex ; 
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 10vw;
+
+}
+#About
+{
+   margin-right: 10px;
+}
+
+/* what section */
+#what{
+    color:#2e475d;
+    font-family:Georgia, 'Times New Roman', Times, serif ; 
+    font-size: 30px;
+    
+}
+
+#answer
+{
+    color:#2e475d;
+    font-family:Garamond; 
+    font-size: 20px;
+    
+    /* text-align: center; */
+}
+
+#info
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* con section */
+
+#con
+{
+    /* display: flex;
+    flex-wrap: wrap;
+      justify-content: space-between; */
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap:5px ; 
+   
+    width:100vw;
+    margin-top: 10px;
+    margin-left: 5vw ;
+    margin-right:5vw;
+}
+.ftr
+{
+    background-color: #eaf2f5;
+    height: 55vh;
+    width:27vw ; 
+    border:1px ;
+    border-color: rgb(196, 166, 166);
+    padding : 10px; 
+    border-radius: 13px;
+}
+
+.ftr:hover 
+{
+   background-color: #d3dce6;
+   cursor: pointer;
+}
+
+.pft
+{
+    list-style: none;
+}
+
+.ftr h2{
+    color: #285c4f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.ftr h3{
+    color: #2e210c;
+    font-family: garamond;
+    padding: 0px 0px 24px;
+}
+.featurebtn
+{
+    background-color: #FF5C35;
+    width: 18vw;
+    height: 7vh ;
+    color: #FFFFFF; 
+    font-family: Garamond ; 
+    margin-left:45px ; 
+  }
+

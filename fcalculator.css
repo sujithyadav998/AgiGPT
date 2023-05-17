@@ -1,0 +1,106 @@
+header {
+    background : #ffffff;
+    display:flex ; 
+    flex-direction:row;
+    justify-content: space-between;
+    width:100vw ; 
+    height:12vh ; 
+}
+body {
+	/* padding: 10px; */
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+		Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	line-height: 1.6;
+	font-size: 18px;
+    background-color : #1e2221;
+}
+
+main {
+    display: flex ;
+    flex-direction: row;
+    height : 100vh ; 
+}
+
+
+/* styling input component */
+#input {
+    height : 85vh ; 
+    width : 40vw  ;
+    margin-left: 20vw;
+    margin-top: 4vh ; 
+   
+    /* background-color : blue
+    ; */
+
+}
+
+.inputsubheader{
+
+    font-family: Garamond ; 
+    /* font-size: 16px; */
+    color :  #828c8d;
+ 
+}
+label
+{
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+form
+{
+    height : 80vh ; 
+}
+
+#calc
+{
+    background-color: #FF5C35;
+    width: 13vw;
+    height: 7vh ;
+    color: #FFFFFF; 
+    font-family: Garamond ;
+    
+}
+#calcdiv{
+    padding-left: 60px ; ;
+}
+input{
+    height: 20px;
+}
+
+
+/* styling output component */
+#output
+{
+    height : 85vh ; 
+    width: 35vw ;
+    background-color: #1b2a2c;
+    border-radius: 15px;
+    margin-top: 4vw;
+    border-style: solid;
+    border-color: #828c8d;
+    /* padding : 25px ;  */
+
+ 
+    
+}
+
+
+
+
+
+.outputheading {
+    font-family: Garamond ; 
+    /* font-size: 16px; */
+    color :  #828c8d;
+    margin-left: 20px;
+}
+
+.value{
+    font-family: Garamond ; 
+    /* font-size: 16px; */
+    color: #FFFFFF;
+    margin-left: 20px;
+}
